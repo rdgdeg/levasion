@@ -1,0 +1,30 @@
+export type ReservationStatus = "pending" | "confirmed" | "declined" | "cancelled";
+export type PaymentStatus = "unpaid" | "deposit_link_sent" | "deposit_paid" | "balance_link_sent" | "paid";
+export type ReservationLang = "fr" | "nl" | "en";
+
+export type Reservation = {
+  id: string;
+  createdAt: string;
+  checkIn: string;
+  checkOut: string;
+  guests: number;
+  adults: number;
+  children: number;
+  babyCot: boolean;
+  name: string;
+  email: string;
+  phone: string;
+  country: string;
+  message: string;
+  lang: ReservationLang;
+  status: ReservationStatus;
+  paymentStatus: PaymentStatus;
+  rentalCents: number;
+  extrasCents: number;
+  amountCents: number;
+  depositCents: number;
+  nights: number;
+  source: "guest" | "block";
+  stripeSessionId?: string;
+  stripeUrl?: string;
+};
