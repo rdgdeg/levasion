@@ -49,7 +49,39 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="section alt">
+      <section className="section alt" id="hotes">
+        <div className="wrap">
+          <Reveal>
+            <div className="section-head">
+              <p className="kicker">{t.hosts.kicker}</p>
+              <h2>{t.hosts.title}</h2>
+              <p className="intro">{t.hosts.lead}</p>
+            </div>
+          </Reveal>
+          <Reveal delay={80}>
+            <div className="hosts-panel lift-card">
+              <div className="hosts-media">
+                <img src={t.hosts.image} alt={t.hosts.imageAlt} loading="lazy" />
+              </div>
+              <div className="hosts-copy">
+                <p>{t.hosts.story}</p>
+              </div>
+            </div>
+          </Reveal>
+          <div className="hosts-points">
+            {t.hosts.points.map((point, index) => (
+              <Reveal key={point.title} delay={index * 70}>
+                <article className="card hosts-point lift-card">
+                  <h3>{point.title}</h3>
+                  <p>{point.text}</p>
+                </article>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="wrap">
           <Reveal>
             <div className="section-head">

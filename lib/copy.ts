@@ -4,6 +4,7 @@ export const fr = {
   nav: {
     home: "Accueil",
     yacht: "Le yacht",
+    hosts: "Hôtes",
     gallery: "Galerie",
     place: "Ladeuze",
     rates: "Tarifs",
@@ -29,6 +30,29 @@ export const fr = {
       { label: "Salles de bains", value: "2 douches" },
       { label: "Séjour", value: "À partir de 2 nuits" },
     ],
+  },
+  hosts: {
+    kicker: "Vos hôtes",
+    title: "Grégory & Perrine vous accueillent.",
+    lead: "Ce qui fait aussi la particularité de L'évasion, c'est l'accueil. Ils reçoivent eux-mêmes leurs visiteurs, présentent le bateau et restent à disposition pendant le séjour.",
+    story:
+      "Il y a deux ans, Grégory et Perrine ont acquis ce bateau de plaisance, déjà chargé d'histoire. Après six mois de travaux à Bruxelles, auxquels ils ont largement contribué, le yacht a trouvé une nouvelle vie à Ladeuze.",
+    points: [
+      {
+        title: "Accueil en personne",
+        text: "Ils vous reçoivent à bord, vous présentent les lieux et expliquent le fonctionnement du yacht.",
+      },
+      {
+        title: "À votre disposition",
+        text: "Pendant le séjour, ils restent disponibles pour répondre à vos questions et vous aider si besoin.",
+      },
+      {
+        title: "Une expérience locale",
+        text: "Anglais, Allemands et bien d'autres nationalités sont déjà passés ici — et même des voisins de Ladeuze.",
+      },
+    ],
+    image: "/photos/05.jpg",
+    imageAlt: "Le pont couvert du yacht, prêt pour l'accueil",
   },
   amenities: {
     kicker: "À bord",
@@ -406,6 +430,7 @@ export const nl: Copy = {
   nav: {
     home: "Home",
     yacht: "Het jacht",
+    hosts: "Gastheren",
     gallery: "Galerij",
     place: "Ladeuze",
     rates: "Tarieven",
@@ -431,6 +456,29 @@ export const nl: Copy = {
       { label: "Badkamers", value: "2 douches" },
       { label: "Verblijf", value: "Vanaf 2 nachten" },
     ],
+  },
+  hosts: {
+    kicker: "Uw gastheren",
+    title: "Grégory & Perrine heten u welkom.",
+    lead: "Wat L'évasion ook bijzonder maakt, is het onthaal. Zij ontvangen hun gasten zelf, stellen het schip voor en blijven beschikbaar tijdens het verblijf.",
+    story:
+      "Twee jaar geleden kochten Grégory en Perrine dit plezierjacht, met al een mooie geschiedenis. Na zes maanden werken in Brussel, waaraan zij beiden ruim hebben bijgedragen, vond het schip een nieuw leven in Ladeuze.",
+    points: [
+      {
+        title: "Persoonlijk onthaal",
+        text: "Zij ontvangen u aan boord, tonen de ruimtes en leggen uit hoe het jacht werkt.",
+      },
+      {
+        title: "Voor u beschikbaar",
+        text: "Tijdens het verblijf blijven zij bereikbaar voor vragen en hulp waar nodig.",
+      },
+      {
+        title: "Een lokale ervaring",
+        text: "Engelsen, Duitsers en heel wat andere nationaliteiten gingen al langs — en ook buren uit Ladeuze.",
+      },
+    ],
+    image: "/photos/05.jpg",
+    imageAlt: "Het overdekte dek van het jacht, klaar voor het onthaal",
   },
   amenities: {
     kicker: "Aan boord",
@@ -659,6 +707,7 @@ export const en: Copy = {
   nav: {
     home: "Home",
     yacht: "The yacht",
+    hosts: "Hosts",
     gallery: "Gallery",
     place: "Ladeuze",
     rates: "Rates",
@@ -684,6 +733,29 @@ export const en: Copy = {
       { label: "Bathrooms", value: "2 showers" },
       { label: "Stay", value: "From 2 nights" },
     ],
+  },
+  hosts: {
+    kicker: "Your hosts",
+    title: "Grégory & Perrine welcome you.",
+    lead: "What also makes L'évasion special is the welcome. They greet their guests in person, show them the boat and stay available throughout the stay.",
+    story:
+      "Two years ago, Grégory and Perrine bought this pleasure boat, already full of history. After six months of work in Brussels, to which they both contributed a great deal, the yacht found a new life in Ladeuze.",
+    points: [
+      {
+        title: "A personal welcome",
+        text: "They meet you on board, show you around and explain how the yacht works.",
+      },
+      {
+        title: "Available for you",
+        text: "During your stay, they remain available to answer questions and help when needed.",
+      },
+      {
+        title: "A local experience",
+        text: "English, German and many other nationalities have already stayed here — and even neighbours from Ladeuze.",
+      },
+    ],
+    image: "/photos/05.jpg",
+    imageAlt: "The covered deck of the yacht, ready for your arrival",
   },
   amenities: {
     kicker: "On board",

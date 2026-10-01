@@ -338,6 +338,56 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 520; letter-spacing: -0
   gap: 12px;
   align-items: stretch;
 }
+.hosts-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 0;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+.hosts-media {
+  min-height: 280px;
+  background: var(--sand);
+}
+.hosts-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 280px;
+}
+.hosts-copy {
+  display: grid;
+  align-content: center;
+  gap: 14px;
+  padding: 28px 26px;
+}
+.hosts-copy p {
+  margin: 0;
+  color: #2f4a51;
+  font-size: 17px;
+  line-height: 1.55;
+}
+.hosts-points {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
+}
+.hosts-points > .reveal {
+  height: 100%;
+  display: flex;
+}
+.hosts-point {
+  text-align: left;
+}
+.hosts-point h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
 .amenity-grid > .reveal {
   height: 100%;
   display: flex;
@@ -858,9 +908,10 @@ textarea { min-height: 96px; resize: vertical; }
     align-items: flex-start;
   }
   .menu-toggle { display: inline-flex; }
-  .booking, .footer-grid, .amenity-grid, .two-cols, .points, .facts, .place-grid {
+  .booking, .footer-grid, .amenity-grid, .two-cols, .points, .facts, .place-grid, .hosts-points {
     grid-template-columns: 1fr 1fr;
   }
+  .hosts-panel { grid-template-columns: 1fr; }
   .months { grid-template-columns: minmax(0, 1fr); }
   .steps { grid-template-columns: 1fr 1fr; }
   .amenity-grid, .facts { grid-template-columns: 1fr 1fr; }
@@ -869,7 +920,7 @@ textarea { min-height: 96px; resize: vertical; }
   .float-cta { display: none; }
 }
 @media (max-width: 640px) {
-  .amenity-grid, .facts, .steps, .place-grid, .booking, .footer-grid, .months, .two-cols, .points {
+  .amenity-grid, .facts, .steps, .place-grid, .booking, .footer-grid, .months, .two-cols, .points, .hosts-points {
     grid-template-columns: minmax(0, 1fr);
   }
   .gallery-masonry { columns: 1; }

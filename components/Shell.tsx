@@ -73,6 +73,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
   const links = [
     { href: "/#accueil", label: t.nav.home },
     { href: "/#yacht", label: t.nav.yacht },
+    { href: "/#hotes", label: t.nav.hosts },
     { href: "/#galerie", label: t.nav.gallery },
     { href: "/#tarifs", label: t.nav.rates },
     { href: "/#calendrier", label: t.nav.book },
