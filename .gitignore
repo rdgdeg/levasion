@@ -7,3 +7,4 @@ node_modules
 tsconfig.tsbuildinfo
 data/reservations.json
 .DS_Store
+.vercel

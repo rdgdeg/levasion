@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Fraunces, Outfit } from "next/font/google";
+import { Outfit, Source_Serif_4 } from "next/font/google";
 import { Shell } from "@/components/Shell";
 import { LanguageProvider } from "@/lib/i18n";
 import { property } from "@/lib/property";
 import "./globals.css";
 
-const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-serif" });
+const sourceSerif = Source_Serif_4({ subsets: ["latin"], variable: "--font-serif" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
@@ -43,7 +43,7 @@ const jsonLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="fr" className={`${fraunces.variable} ${outfit.variable}`} suppressHydrationWarning>
+    <html lang="fr" className={`${sourceSerif.variable} ${outfit.variable}`} suppressHydrationWarning>
       <body suppressHydrationWarning>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <LanguageProvider>

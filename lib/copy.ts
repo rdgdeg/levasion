@@ -15,14 +15,14 @@ export const fr = {
     title: "L'évasion",
     lead: "Dormir à bord, amarré au canal.",
     address: "Grande Drève 1 · 7950 Ladeuze",
-    chips: ["Jusqu'à 6 voyageurs", "3 chambres", "Pont & jardin", "Parking privé"],
+    chips: ["Jusqu'à 6 voyageurs", "3 cabines", "Pont & jardin", "Parking privé"],
     cta: "Voir le calendrier",
     secondary: "Découvrir le yacht",
   },
   yacht: {
     kicker: "Le yacht",
     title: "Un logement entier, au fil de l'eau.",
-    body: "L'évasion est un yacht-gîte amarré à la halte nautique de Ladeuze. Trois chambres, deux salles de bains, salon et cuisine équipée dans environ 54 m². Le pont couvert et la pelouse donnent sur le canal. Le bateau ne navigue pas : vous venez y ralentir.",
+    body: "L'évasion est un yacht-gîte amarré à la halte nautique de Ladeuze. Trois cabines, deux salles de bains, salon et cuisine équipée dans environ 54 m². Le pont couvert et la pelouse donnent sur le canal. Le bateau ne navigue pas : vous venez y ralentir.",
     facts: [
       { label: "Couchages", value: "2 doubles + 1 superposé" },
       { label: "Capacité", value: "2 à 6 voyageurs" },
@@ -46,7 +46,7 @@ export const fr = {
   },
   gallery: {
     kicker: "Galerie",
-    title: "Le canal, le pont, les chambres.",
+    title: "Le canal, le pont, les cabines.",
     lead: "Le yacht tel qu'il est amarré à Ladeuze, de jour comme le soir.",
     more: "Voir plus de photos",
     less: "Voir moins",
@@ -133,7 +133,7 @@ export const fr = {
       },
       {
         q: "Combien de personnes peuvent dormir à bord ?",
-        a: "Jusqu'à 6 voyageurs : deux chambres avec lit double et une chambre avec lits superposés. Il y a deux salles de bains.",
+        a: "Jusqu'à 6 voyageurs : deux cabines avec lit double et une cabine avec lits superposés. Il y a deux salles de bains.",
       },
       {
         q: "Quelle est la durée minimale ?",
@@ -417,14 +417,14 @@ export const nl: Copy = {
     title: "L'évasion",
     lead: "Slapen aan boord, afgemeerd aan het kanaal.",
     address: "Grande Drève 1 · 7950 Ladeuze",
-    chips: ["Tot 6 gasten", "3 slaapkamers", "Dek & tuin", "Privéparkeer"],
+    chips: ["Tot 6 gasten", "3 kajuiten", "Dek & tuin", "Privéparkeer"],
     cta: "Kalender bekijken",
     secondary: "Het jacht ontdekken",
   },
   yacht: {
     kicker: "Het jacht",
     title: "Een volledige woning, aan het water.",
-    body: "L'évasion is een yacht-gîte afgemeerd aan de jachthaven van Ladeuze. Drie slaapkamers, twee badkamers, salon en ingerichte keuken in ongeveer 54 m². Het overdekte dek en het gras kijken uit op het kanaal. Het schip vaart niet: u komt vertragen.",
+    body: "L'évasion is een yacht-gîte afgemeerd aan de jachthaven van Ladeuze. Drie kajuiten, twee badkamers, salon en ingerichte keuken in ongeveer 54 m². Het overdekte dek en het gras kijken uit op het kanaal. Het schip vaart niet: u komt vertragen.",
     facts: [
       { label: "Slaapplaatsen", value: "2 tweepersoons + 1 stapelbed" },
       { label: "Capaciteit", value: "2 tot 6 gasten" },
@@ -448,7 +448,7 @@ export const nl: Copy = {
   },
   gallery: {
     kicker: "Galerij",
-    title: "Het kanaal, het dek, de kamers.",
+    title: "Het kanaal, het dek, de kajuiten.",
     lead: "Het jacht zoals het in Ladeuze ligt, overdag en 's avonds.",
     more: "Meer foto's bekijken",
     less: "Minder tonen",
@@ -535,7 +535,7 @@ export const nl: Copy = {
       },
       {
         q: "Hoeveel personen kunnen aan boord slapen?",
-        a: "Tot 6 gasten: twee kamers met een tweepersoonsbed en een kamer met een stapelbed. Er zijn twee badkamers.",
+        a: "Tot 6 gasten: twee kajuiten met een tweepersoonsbed en een kajuit met een stapelbed. Er zijn twee badkamers.",
       },
       {
         q: "Wat is de minimale verblijfsduur?",
@@ -670,14 +670,14 @@ export const en: Copy = {
     title: "L'évasion",
     lead: "Sleep on board, moored on the canal.",
     address: "Grande Drève 1 · 7950 Ladeuze",
-    chips: ["Up to 6 guests", "3 bedrooms", "Deck & garden", "Private parking"],
+    chips: ["Up to 6 guests", "3 cabins", "Deck & garden", "Private parking"],
     cta: "See the calendar",
     secondary: "Discover the yacht",
   },
   yacht: {
     kicker: "The yacht",
     title: "An entire home, by the water.",
-    body: "L'évasion is a yacht guesthouse moored at the Ladeuze harbour. Three bedrooms, two bathrooms, lounge and fitted kitchen in about 54 m². The covered deck and the lawn face the canal. The boat does not sail: you come to slow down.",
+    body: "L'évasion is a yacht guesthouse moored at the Ladeuze harbour. Three cabins, two bathrooms, lounge and fitted kitchen in about 54 m². The covered deck and the lawn face the canal. The boat does not sail: you come to slow down.",
     facts: [
       { label: "Beds", value: "2 doubles + 1 bunk" },
       { label: "Capacity", value: "2 to 6 guests" },
@@ -701,7 +701,7 @@ export const en: Copy = {
   },
   gallery: {
     kicker: "Gallery",
-    title: "The canal, the deck, the rooms.",
+    title: "The canal, the deck, the cabins.",
     lead: "The yacht as it sits in Ladeuze, by day and in the evening.",
     more: "See more photos",
     less: "See less",
@@ -788,7 +788,7 @@ export const en: Copy = {
       },
       {
         q: "How many people can sleep on board?",
-        a: "Up to 6 guests: two rooms with a double bed and one room with a bunk bed. There are two bathrooms.",
+        a: "Up to 6 guests: two cabins with a double bed and one cabin with a bunk bed. There are two bathrooms.",
       },
       {
         q: "What is the minimum stay?",

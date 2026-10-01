@@ -186,7 +186,7 @@ export function BookingForm() {
         </div>
         <div className="months">
           {[cursor, second].map((month) => (
-            <div key={month}>
+            <div className="month" key={month}>
               <div className="cal-head">
                 <strong>{monthLabel(month, locale)}</strong>
               </div>

@@ -38,7 +38,7 @@ export const photos = [
   { src: "/photos/12.jpg", alt: "Coin repas dehors, le soir, sous les guirlandes" },
   { src: "/photos/05.jpg", alt: "Le pont couvert, avec ses fauteuils" },
   { src: "/photos/11.jpg", alt: "Vue sur le canal depuis le pont" },
-  { src: "/photos/03.jpg", alt: "Une des chambres doubles, sous le hublot" },
+  { src: "/photos/03.jpg", alt: "Une des cabines doubles, sous le hublot" },
   { src: "/photos/04.jpg", alt: "Le salon du yacht" },
   { src: "/photos/10.jpg", alt: "La table du salon, face aux baies vitrées" },
 ] as const;
